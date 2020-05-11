@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style/common.css" rel="stylesheet" type="text/css" />
+    <link href="style/main.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- <link href="style/reset.css" rel = "stylesheet" type = "text/css"> -->
+  </head>
+  <body>
+    <div id="wrap">
+      <nav>
+        <div class="nav">
+            <div class="nav-left-logo">
+              <div class="nav-left-logo-left">
+                <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/logo.png">
+              </div>
+              <div class="nav-left-logo-right">
+                <img src="img/logo_text.png">
+              </div>
+            </div>
+            <div class="nav-mid"><input tpye="text" id= "nav-mid-s" placeholder="검색"></div>
+            <div class="nav-right-logo">
+              <ul>
+                <il><img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/profile.png"></il>
+                <il><img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/heart.png"></il>
+                <il><img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/explore.png"></il>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      <main>
+        <div class = "container">
+          <div class ="feeds">
+            <div class ="feeds-left">
+              <div class="feeds-top">
+                <div class ="feeds-top-left">              
+                  <img src="img/jongsin01 복사본.png">
+                  <div><strong>yoonjongshin</strong></div>
+                </div>
+                <div class="feeds-top-right-dots">
+                  <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/more.png">
+                </div>
+              </div>
+                <div class="feeds-left-first-img">
+                  <img src="img/jongsin01.jpg">
+                </div>
+                <div class="feeds-left-bottom-icon">
+                  <div class ="feeds-left-bottom-L-icon">
+                    <img src="img/heart.png" style="width:32px">
+                    <!-- <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/heart.png"> -->
+                    <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/comment.png">
+                    <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/share.png">
+                  </div>
+                  <div class="feeds-left-bottom-R-icon">
+                    <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/bookmark.png">
+                  </div>
+              </div>
+              <div class = "like-img">
+                <div><img src = "img/goimg.jpg"></div>
+                <p><strong>__goguard</strong>님 <strong>외 3651명</strong>이 좋아합니다.</p>
+              </div>
+              <div class="text">
+                <p><strong>yoonjongshin</strong>  지난 2월.#1 #이방인프로젝트... 더 보기</p>
+                <p><strong>kgg1025</strong>  코로나19의 최전선에서 건강하길 바랍니다.</p>
+              </div>
+              <div class="comment-event">
+                <input type="text" id = "comment" onKeyDown="pressEnter()" placeholder="댓글 달기...">
+              </div>  
+            </div>
+
+            <div class = "feeds-right">
+              <div class = "feeds-right-top">
+                <img src="img/goimg.jpg">
+                <div>
+                  <p class="instaId"><strong>__goguard</strong></p>
+                  <p class="instaName" style="margin-top:5px">경호</p>
+                </div>
+              </div>
+              <div class = "feeds-right-mid">
+                <div class="feeds-right-mid-topText">
+                  <div class="story">스토리</div>
+                  <div class="all">모두 보기</div>
+                </div>
+                <div class="feeds-right-mid-first-img">
+                  <img src="img/bears.jpg">
+                  <div class="first-img-text">
+                    <p class="doosanbears"><strong>doosanbears.1982</strong></p>
+                    <p class="first-time">10분 전</p>
+                  </div>
+                </div>
+                <div class="feeds-right-mid-second-img">
+                  <img src="img/여미.jpg">
+                  <div class="second-img-text">
+                    <p class="travelholic"><strong>travelholic_insta</strong></p>
+                    <p class="second-time">1시간 전</p>
+                  </div>
+                </div>
+                <div class="feeds-right-mid-third-img">
+                  <img src="img/art.jpg">
+                  <div class="third-img-text">
+                    <p class="arte"><strong>arte_design__</strong></p>
+                    <p class="third-time">4시간 전</p>
+                  </div>
+                </div>
+                <div class="feeds-right-mid-fourth-img">
+                  <img src="img/iammin.jpg">
+                  <div class="fourth-img-text">
+                    <p class="iammingki"><strong>iammingki</strong></p>
+                    <p class="fourth-time">8시간 전</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class = "feeds-right-bom">
+                <div class="feeds-right-bom-topText">
+                  <div class="recommend">회원님을 위한 추천</div>
+                  <div class="all">모두 보기</div>
+                </div>
+                <div class="feeds-right-bom-first-img">
+                  <img src="img/yuna.jpg">
+                  <div class="feeds-right-bom-first-img-text">
+                    <p class="yuna"><strong>yunakim</strong></p>
+                    <p class="text">uni_guni 님 외 8명이... </p>
+                  </div>
+                  <div class="follow">팔로우</div>
+                </div>
+                <div class="feeds-right-bom-second-img">
+                  <img src="img/moon.jpg">
+                  <div class="feeds-right-bom-second-img-text">
+                    <p class="moon"><strong>moonjaein</strong></p>
+                    <p class="text">15.08.90 님 외 16명이... </p>
+                  </div>
+                  <div class="follow">팔로우</div>
+                </div>
+                <div class="feeds-right-bom-third-img">
+                  <img src="img/son.jpg">
+                  <div class="feeds-right-bom-third-img-text">
+                    <p class="son"><strong>hm_son7</strong></p>
+                    <p class="text">nam__kh 님 외 7명이... </p>
+                  </div>
+                  <div class="follow">팔로우</div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
