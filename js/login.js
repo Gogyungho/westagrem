@@ -1,12 +1,10 @@
-const inputwrap = document.getElementsByClassName('input_wrap')[0];
+const inputWrap = document.querySelector('.input_wrap');
 
-function Button(){
-    let Text = document.getElementById('text').value;
-    let Password = document.getElementById('password').value;
-	const thisIsButton = document.getElementByClassName('login_button')[0];
-    if (Text.length !== 0){
-        thisIsButton.style.backgroundColor ='blue';
+inputWrap.addEventListener('keyup', function Button(){
+    let Text = document.querySelector('#textid').value;
+    let Password = document.querySelector('#password').value;
+    
+    if (Text !== "" && Password !== ""){
+        return document.querySelector('.login_button').style.backgroundColor = 'rgb(100, 182, 248)';
     }
-}
-
-inputwrap.addEventListener('keyup', Button);
+});
