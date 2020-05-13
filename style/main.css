@@ -174,27 +174,44 @@ main .container{
     font-family: Arial, Helvetica, sans-serif;
     /* font-family: 'Roboto', sans-serif; */
 }
-.feeds-left .text{
-    /* margin-bottom: 56px; */
-}
-.text div{
+
+
+.text-container div{
     font-size: 14px;
     margin-left: 14px;
     margin-top: 5px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.comment-event{
-    /* width:580px; */
-    margin-top: 10px;
+.text-container strong{
+    padding-right: 10px;
+}
+.comment_button{
+    display:flex;
     border-top: 1px solid #dbdbdb;
+    height:38px;
 }
 
-#comment{
-    width:598px;
+.comment_upload_button{
+    width:35px;
+    font-size: 14px;
+    border:none;
+    color:#a1d0f8;
+    margin-right:10px;
+}
+
+#comment_value{
+    width:560px;
     height: 30px;
     border:0;
     padding:10px;
     margin-top: 5px;
+}
+.bb {
+    font-size: 14px;
+    margin-left: 14px;
+    margin-top: 5px;
+    color:#a8a8a8;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* */
